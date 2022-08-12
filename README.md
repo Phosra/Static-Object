@@ -8,3 +8,6 @@ This way, accesses on the object or its prototypes should still be at normal spe
 `StaticObject` is a function or constructor, that returns an object whose prototype is `StaticObject.prototype`, which is a proxy around `Object.prototype`, for which missing accesses throw a `KeyError`.
 
 `KeyError` provides an accessor `key` that stores the key that was not present.
+
+See [main.mjs](/main.mjs) for example usage.
+ 

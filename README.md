@@ -1,4 +1,4 @@
-# Static-Object
+# Static Object
 A JavaScript class that throws exceptions upon accessing missing properties.
 
 The situation was that someone had asked whether it's possible to have JavaScript objects throw an exception if the property is missing. The solution is `Proxy`, but on its own, there will be a performance reduction. Instead, one may have the proxy object that throws, stored as the object's prototype.
